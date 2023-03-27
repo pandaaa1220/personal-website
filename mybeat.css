@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 30px;
+	background-color: oldlace;
+}
+h2 {
+	text-align: center;
+	padding: 25px;
+	margin: 10px;
+	background-color: #d8d7bf;
+}
+.beat {
+	display: inline-block;
+	align-items: center;
+	margin: 10px;
+	text-align: center;
+}
+.beat a {
+	text-decoration: none;	
+	font-family:arial;
+	font-weight: bolder;
+	color: black;
+}
+img {
+	width: 90%;
+	height: 100%;
+}
+img:hover{
+	opacity:0.5;
+}
