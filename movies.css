@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	text-align:center;
+}
+
+.vid{
+	display:flex;
+	align-items:center;
+	margin: 30px 460px;
+}
+
+body {
+	margin: 30px;
+	background-color: oldlace;
+}
+
+h2 {
+	text-align: center;
+	padding: 25px;
+	margin: 10px;
+	background-color: #d8d7bf;
+}
