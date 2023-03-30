@@ -12,10 +12,12 @@ img {
 	overflow-clip-margin: content-box;
 	overflow:clip;
 }
+
 body {
 	background-color:oldlace;
 	font-family:verdana, Serif;
 }
+
 h2,h3 {
 	text-align:left;
 	color: black;
@@ -48,10 +50,6 @@ img:hover{
 	opacity:0.5;
 }
 
-img a{
-	text-decoration:none;
-}
-
 nav.navbar{
 	display:flex;
 	align-items:center;
@@ -60,9 +58,23 @@ nav.navbar{
 	background-color:#d8d7bf;
 	color:#808080;
 }
-ul.nav-links a{
+
+.nav-links a{
 	color:#808080;
+	text-decoration:none;
 }
+
+.nav-links a:hover{
+	color:black;
+}
+
+.nav-links {
+	justify-content:center;
+	margin-left:auto;
+	margin-right:auto;
+	color: #808080;
+}
+
 div.menu{
 	display:flex;
 	gap:lem;
@@ -121,6 +133,7 @@ h2 {
 a{
 	font-size:30px;
 	text-align: right;
+	text-decoration: none;
 }
 
 img:hover{

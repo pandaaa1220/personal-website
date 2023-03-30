@@ -6,9 +6,15 @@ nav.navbar{
 	background-color:#d8d7bf;
 	color:#808080;
 }
-ul.nav-links a{
+.nav-links a{
 	color:#808080;
+	text-decoration:none;
 }
+
+.nav-links a:hover{
+	color:black;
+}
+
 div.menu{
 	display:flex;
 	gap:lem;
@@ -75,4 +81,13 @@ img:hover{
 	opacity:0.5;
 }
 
+.nav-links {
+	justify-content:center;
+	margin-left:auto;
+	margin-right:auto;
+	color: #808080;
+}
 
+a {
+	text-decoration: none;
+}

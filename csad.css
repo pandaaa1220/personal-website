@@ -12,8 +12,18 @@ nav.navbar{
 	background-color:#d8d7bf;
 	color:#808080;
 }
-ul.nav-links a{
+.nav-links a{
 	color:#808080;
+	text-decoration:none;
+}
+.nav-links a:hover{
+	color:black;
+}
+.nav-links {
+	justify-content:center;
+	margin-left:auto;
+	margin-right:auto;
+	color: #808080;
 }
 div.menu{
 	display:flex;
