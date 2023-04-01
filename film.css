@@ -10,7 +10,7 @@ h2{
 .vid{
 	display:flex;
 	align-items:center;
-	margin: 30px 460px;
+	margin: 30px 500px;
 }
 
 body {
@@ -23,4 +23,33 @@ h2 {
 	padding: 25px;
 	margin: 10px;
 	background-color: #d8d7bf;
+}
+
+.column{
+	float:left;
+	width:50%;
+	padding:50px 0px 0px;
+	text-align:center;
+}
+
+.row:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+h3{
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+a{
+	font-size:20px;
+	text-align: right;
+	text-decoration: none;
 }
